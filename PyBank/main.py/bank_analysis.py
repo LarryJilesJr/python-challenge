@@ -1,7 +1,7 @@
 import os
 import csv
 
-csv_file_path = "\\Users\\larry\\OneDrive\\Desktop\\Starter_Code\\PyBank\\Resources\\budget_data.csv"  
+csv_file_path = "\\Users\\larry\\OneDrive\\Desktop\\vbu_mod_3\\python-challenge\\PyBank\\main.py\\Resources\\budget_data.csv"  
 output_file_path = "\\Users\\larry\\OneDrive\\Desktop\\vbu_mod_3\\python-challenge\\PyBank\\main.py\\analysis\\bank_analysis_results.txt"  
 
 def analyze_and_export_bank_data(csv_file_path, output_file_path):
@@ -52,7 +52,7 @@ def analyze_and_export_bank_data(csv_file_path, output_file_path):
         textfile.write(f"Greatest Increase in Profits: {greatest_increase['date']} (${greatest_increase['amount']})\n")
         textfile.write(f"Greatest Decrease in Profits: {greatest_decrease['date']} (${greatest_decrease['amount']})\n")
 
-    print(f"Analysis results exported to {output_file_path}")
+    print(f"Bank analysis results exported to {output_file_path}")
 
 analyze_and_export_bank_data(csv_file_path, output_file_path)
 
