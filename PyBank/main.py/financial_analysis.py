@@ -1,8 +1,8 @@
 import os
 import csv
 
-csv_file_path = "\\Users\\larry\\OneDrive\\Desktop\\vbu_mod_3\\python-challenge\\PyBank\\main.py\\Resources\\budget_data.csv"  
-output_file_path = "\\Users\\larry\\OneDrive\\Desktop\\vbu_mod_3\\python-challenge\\PyBank\\main.py\\analysis\\bank_analysis_results.txt"  
+csv_file_path = ".\\vbu_mod_3\\python-challenge\\PyBank\\main.py\\Resources\\budget_data.csv"  
+output_file_path = ".\\vbu_mod_3\\python-challenge\\PyBank\\main.py\\analysis\\bank_analysis_results.txt"  
 
 def analyze_and_export_financial_data(csv_file_path, output_file_path):
     total_months = 0
@@ -55,4 +55,3 @@ def analyze_and_export_financial_data(csv_file_path, output_file_path):
     print(f"Financial analysis results exported to {output_file_path}")
 
 analyze_and_export_financial_data(csv_file_path, output_file_path)
-

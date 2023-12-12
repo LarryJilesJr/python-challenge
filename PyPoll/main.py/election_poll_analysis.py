@@ -1,8 +1,8 @@
 import os
 import csv
 
-csv_file_path = "\\Users\\larry\\OneDrive\\Desktop\\vbu_mod_3\\python-challenge\\PyPoll\\main.py\\Resources\\election_data.csv"  
-output_file_path = "\\Users\\larry\\OneDrive\\Desktop\\vbu_mod_3\\python-challenge\\PyPoll\\main.py\\analysis\\election_poll_analysis_results.txt"
+csv_file_path = ".\\vbu_mod_3\\python-challenge\\PyPoll\\main.py\\Resources\\election_data.csv"  
+output_file_path = ".\\vbu_mod_3\\python-challenge\\PyPoll\\main.py\\analysis\\election_poll_analysis_results.txt"
 
 def analyze_and_export_election_votes_data(csv_file_path, output_file_path):
     total_votes = 0
